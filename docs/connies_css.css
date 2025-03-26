@@ -30,7 +30,7 @@ img.item {
     margin-right: auto;
     width: 20%;
     display: block;
-    padding: 25px; /* Change padding on images to vw? */
+    padding: 1vw; /* Change padding on images to vw? */
 }
 
 img.icecream {
@@ -38,7 +38,7 @@ img.icecream {
     margin-right: auto;
     width: 30%;
     display: block;
-    padding: 25px;
+    padding: 1vw;
 }
 
 nav {
@@ -69,6 +69,11 @@ h1 {
     font-size: 3.5vw;
 }
 
+h2 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
 h3 {
     text-align: center;
     font-size: 2vw;
@@ -91,5 +96,5 @@ table {
   
   .column {
     flex: 33.33%;
-    padding: 5px;
+    padding: 1vw;
   }
